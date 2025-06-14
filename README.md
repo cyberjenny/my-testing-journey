@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Testing Learning Journey
 
 ## What I'm Learning
@@ -7,3 +8,6 @@
 
 ## My Goal
 To become a skilled software tester!
+=======
+# my-testing-journey
+Learning software testing step by step
