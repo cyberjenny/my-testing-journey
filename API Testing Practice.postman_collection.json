@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "d93a0a9a-1193-4253-9029-fe04cf681f86",
+		"name": "API Testing Practice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45889774"
+	},
+	"item": [
+		{
+			"name": "Bored API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.boredapi.com/api/activity",
+					"protocol": "https",
+					"host": [
+						"www",
+						"boredapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"activity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wttr.in/Lagos?format=j1&",
+					"protocol": "https",
+					"host": [
+						"wttr",
+						"in"
+					],
+					"path": [
+						"Lagos"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "j1"
+						},
+						{
+							"key": null,
+							"value": null,
+							"description": "Shows current weather in a city (no key needed)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dog CEO API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dog.ceo/api/breeds/image/random",
+					"protocol": "https",
+					"host": [
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"api",
+						"breeds",
+						"image",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Library",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&format=json&",
+					"protocol": "https",
+					"host": [
+						"openlibrary",
+						"org"
+					],
+					"path": [
+						"api",
+						"books"
+					],
+					"query": [
+						{
+							"key": "bibkeys",
+							"value": "ISBN:0451526538"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						},
+						{
+							"key": null,
+							"value": null,
+							"description": "Gets details about a book"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Movie Quote API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://movie-quote-api.herokuapp.com/v1/quote/",
+					"protocol": "https",
+					"host": [
+						"movie-quote-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"quote",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
